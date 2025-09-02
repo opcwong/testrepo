@@ -1,0 +1,8 @@
+.x-button-back {
+    background-color: #e73c08 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
