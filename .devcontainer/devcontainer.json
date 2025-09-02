@@ -1,0 +1,16 @@
+{
+  "name": "Sencha App Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "./.devcontainer/setup-sencha.sh",
+  "forwardPorts": [1841],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": []
+    }
+  }
+}
